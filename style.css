@@ -1,0 +1,42 @@
+*{
+  background: #fdf1f1;
+}
+
+.large_box{
+  display: grid;
+  background: #433f3fd3;
+  grid-template-columns: 1fr;
+  grid-template-rows: 150px 470px;
+  width: 100%;
+  height: 620px;
+  gap: 10px;
+}
+
+.box1{
+  background: #060505a8;
+  display: grid;
+  grid-template-rows:90px 90px 90px 90px 90px;
+  padding: 5px;
+}
+
+.box{
+  background: #00000029;
+}
+
+.btn,.enter,.ac,.clr{
+  height: 80px;
+  width: 80px;
+  border-radius:50%;
+  font-size: 50px;
+  background: #ffffff12;
+  color:white;
+  border:none;
+}
+
+.op{
+  background: #ff000050;
+}
+
+.enter,.clr,.ac,.a{
+    background :#044a04a0;;
+}
